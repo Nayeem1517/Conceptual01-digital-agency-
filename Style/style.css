@@ -30,5 +30,88 @@
 }
 /* Main related style */
 
+.banner-text{
 
+}
+
+.banner-intro{
+font-size: 55px;
+font-weight: bold;
+}
+
+.banner-description{
+font-size: 18px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.btn-primary{
+
+}
+.banner-img{
+    width: 300px;
+}
+.btn-primary{
+    padding: 10px 20px;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    color:blue;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    
+    background-image: url(../images/background.png);
+    background-color: black;
+    color: white;
+}
+
+/* About Related style */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+/* .about-heading{
+justify-content: center;
+align-items: center;
+font-weight: bold;
+margin-right: 200px;
+} */
+.about-img{
+
+}
+.ab-img{
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+}
+.about-more{
+margin-bottom: 10px;
+margin-top: 20px;
+margin-left: 100px;
+}
+.ab-des{
+margin-top: 10px;
+margin-bottom: 15px;
+font-weight: bold;
+font-size: 25px;
+}
+.oop{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.head{
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 650px;
+}
 /* footer related style */
