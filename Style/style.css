@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 /* Nav related style */
 
-.menu-container{
+.menu-container {
     background-color: gray;
     padding: 20px;
     color: white;
@@ -13,105 +14,174 @@
     align-items: center;
     justify-content: space-around;
 }
-.logo-photo{
+
+.logo-photo {
     width: 150px;
 }
-.menu{
+
+.menu {
     display: flex;
     text-decoration: none;
 }
-.item{
+
+.item {
     margin-right: 10px;
     padding: 10px;
     font-size: 18px;
 }
-.item:hover{
+
+.item:hover {
     color: blue;
 }
+
 /* Main related style */
 
-.banner-text{
+.banner-text {}
 
+.banner-intro {
+    font-size: 55px;
+    font-weight: bold;
 }
 
-.banner-intro{
-font-size: 55px;
-font-weight: bold;
+.banner-description {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-.banner-description{
-font-size: 18px;
-margin-top: 15px;
-margin-bottom: 15px;
-}
-.btn-primary{
+.btn-primary {}
 
-}
-.banner-img{
+.banner-img {
     width: 300px;
 }
-.btn-primary{
+
+.btn-primary {
     padding: 10px 20px;
     background-color: darkorange;
     color: white;
     border: none;
     font-weight: bold;
 }
-.btn-primary:hover{
-    color:blue;
+
+.btn-primary:hover {
+    color: blue;
 }
-.banner-container{
+
+.banner-container {
     display: flex;
     justify-content: space-around;
     height: 100vh;
     align-items: center;
-    
+
     background-image: url(../images/background.png);
     background-color: black;
     color: white;
 }
 
 /* About Related style */
-.about{
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px;
 }
+
 /* .about-heading{
 justify-content: center;
 align-items: center;
 font-weight: bold;
 margin-right: 200px;
 } */
-.about-img{
+.about-img {}
 
-}
-.ab-img{
+.ab-img {
     width: 500px;
     height: 400px;
     margin-top: 100px;
 }
-.about-more{
-margin-bottom: 10px;
-margin-top: 20px;
-margin-left: 100px;
+
+.about-more {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
 }
-.ab-des{
-margin-top: 10px;
-margin-bottom: 15px;
-font-weight: bold;
-font-size: 25px;
+
+.ab-des {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 25px;
 }
-.oop{
+
+.oop {
     margin-top: 10px;
     margin-bottom: 15px;
 }
-.head{
+
+.head {
     font-size: 25px;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
     margin-left: 650px;
 }
+
+.service-name {
+    background-color: black;
+    color: white;
+}
+
+.service-img {
+    width: 100px;
+    margin-left: 10%;
+}
+
+.service-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.service-heading {
+    margin-left: 30px;
+    
+}
+
+.service-name {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.services {
+    padding: 100px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.service-title {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 /* footer related style */
