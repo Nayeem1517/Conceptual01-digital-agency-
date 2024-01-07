@@ -36,7 +36,6 @@
 
 /* Main related style */
 
-.banner-text {}
 
 .banner-intro {
     font-size: 55px;
@@ -185,3 +184,57 @@ margin-right: 200px;
 
 
 /* footer related style */
+.comment{
+    display: block;
+    padding: 50px;
+    background-color:black;
+    color: red;
+    
+}
+.utro{
+    width: 100px;
+    margin-top: 10px;
+}
+.footer-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.sponsors{
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+   gap: 20px;
+   margin-left: 140px;
+}
+.footer-title{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+.png{
+    border: 2px solid pink;
+    border-radius: 5px;
+    gap: 5px
+    ;
+}
+.contact input , textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.copy-right{
+  margin-left: 450px;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+
+}
